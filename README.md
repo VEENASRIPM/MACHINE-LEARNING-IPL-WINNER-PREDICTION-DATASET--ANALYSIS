@@ -1,9 +1,12 @@
  IPL WINNER PREDICTION USING  MACHINE LEARNING
 
+---
 
  Objective
 
 To explore multiple machine learning models and preprocessing techniques for predicting IPL match outcomes. The goal is to identify which algorithm, paired with appropriate sampling and feature engineering methods, delivers the best performance.
+
+---
 
  Key Processes
 
@@ -57,6 +60,8 @@ Its inclusion caused overfitting, as it leaked outcome-related information.
 
 Models were retrained after removing 'venue', resulting in better generalization and improved robustness.
 
+---
+
 -- Results Summary
 
 Configuration
@@ -88,6 +93,8 @@ Without 'venue' feature
 Stable
 
 Generalized well; overfitting reduced
+
+---
 
 -- Conclusion
 
