@@ -62,40 +62,6 @@ Models were retrained after removing 'venue', resulting in better generalization
 
 ---
 
--- Results Summary
-
-Configuration
-
-Accuracy
-
-Remarks
-
-Without SMOTE
-
-Moderate
-
-Poor minority class prediction
-
-With SMOTE
-
-Improved
-
-Balanced outcomes and better accuracy
-
-With 'venue' feature
-
-High
-
-Overfitting observed due to data leakage
-
-Without 'venue' feature
-
-Stable
-
-Generalized well; overfitting reduced
-
----
-
 -- Conclusion
 
 SMOTE significantly enhanced prediction for underrepresented classes.
